@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <a href="style.css"></a>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color:#988fcb;
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <h1 style="font: family 10px;;>Course Registration Form</h1>
+<form action="">
+    
+
+<fieldset>
+    <legend style="color: rgb(255, 0, 238);">Personal Information</legend>
+    <table>
+    <tr><td><label>First Name</label></td>
+    <td><input type="text" name="FN" placeholder="ex:Anup"size="15" maxlength="10"/><br></td></tr>
+
+<tr>
+    <td><label>Surname</label></td>
+    <td><input type="text" name="LN" placeholder="ex:kumar"size="15" maxlength="10"><br></td>
+</tr>
+
+<tr>
+    <td><label>Mobile number</label></td>
+    <td><input type="tel" name="mob" placeholder="ex:0000000000"size="15" maxlength="10"/><br></td>
+</tr>
+<tr>
+    <td><label>Email</label></td>
+    <td><input type="email" name="mail" placeholder="ex:ktanoopkumar2012@gmail.com"/><br></td>
+</tr>
+<tr>
+    <td><label>Password</label></td>
+    <td><input type="password" name="pwd" placeholder="min 8 character"size="15" /><br></td>
+</tr>
+<tr>
+    <td><label>DoB</label></td>
+    <td><input type="date" name="dob"/><br></td>
+</tr>
+<tr>
+    <td><label class="gen">Gender</label></td>
+    <td><input type="radio" name="gender" value="M"/>male
+        <input type="radio"name="gender" value="F"/>female
+        <input type="radio"name="gender" value="c"/>other <br></td>
+</tr>
+</table>
+    
+
+<tr>
+    <td>
+<label>Select country</label></td>
+<td>
+<select name="country">
+    <option value="in">india</option>
+    <option value="USA">america</option>
+    <option value="CHI">CHINA</option>
+    <option value="ENG">ENGLAND</option>
+    <option value="AUS">AUSTALIA</option>
+
+</select><br></td>
+</tr>
+<tr><td>
+<label>Upload image</label>
+<input type="file"><br>
+<input type="reset"/><br></td></tr>
+
+</fieldset>
+
+<fieldset>
+    <legend>Course Details</legend>
+    <label>Select course</label><br>
+    <select name="course">
+        <option value="pfs">python full stack</option>
+        <option value="AI">Artificial inteligence</option>
+        <option value="da">Data science</option>
+        <option value="Jfs">java full stack</option>
+    </select><br>
+    <label for="">Delivary mode</label>
+    <input type="radio" name="mode1" value="on">ONLINE
+    <input type="radio" name="mode1" value="OF">OFLINE<br>
+
+<label for="">Comments</label><br>
+<textarea name="" cols="10" rows="10"></textarea>
+<input type="submit"/>
+</fieldset>
+</form>
+    
+</body>
+</html>
